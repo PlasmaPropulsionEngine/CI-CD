@@ -30,7 +30,7 @@ public void RegistrationTest()
 	
 	RegistrationPage registrationPage = loginpage.GotoRegistration();
 
-	registrationPage.EnterFields("lambda","siderbaby@gmail.com","cucumber","devlops");
+	registrationPage.EnterFields("lambda","wolfbaby@gmail.com","cucumber","devlops");
 	
 	registrationPage.ClickOnSubmitBtn();
 	
